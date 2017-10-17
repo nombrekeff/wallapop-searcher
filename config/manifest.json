@@ -1,0 +1,20 @@
+{
+  "name": "Wallapop Searcher",
+  "description": "Search in Wallapop for products with some specified data, and notifies you by email or by telegram",
+  "version": "1.0.3@dev",
+  "code_version": 4,
+  "language": "php",
+  "interpreter": "php7.0",
+  "main": "WallapopSearcher\\WallapopSearcher",
+  "robot-filter": {
+    "device": {
+      "os": "any",
+      "program": "chrome"
+    }
+  },
+  "robot-permissions": {},
+  "key": "rallf_access_key",
+  "secret": "rallf_access_secret",
+  "debug-url": "https://api.alpha.rallf.com",
+  "type": "web"
+}

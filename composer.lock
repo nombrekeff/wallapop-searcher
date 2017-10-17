@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "accc72b32e1b85c5cc7bc34bb21f717b",
+    "content-hash": "dc24400220d56ea90ac58feced25d5b8",
+    "packages": [
+        {
+            "name": "RobotUnion/robot-php-sdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RobotUnion/robot-php-sdk.git",
+                "reference": "2e0c7e7cafbe5ea72ad29ef576ee5b38afec39fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RobotUnion/robot-php-sdk/zipball/2e0c7e7cafbe5ea72ad29ef576ee5b38afec39fe",
+                "reference": "2e0c7e7cafbe5ea72ad29ef576ee5b38afec39fe",
+                "shasum": ""
+            },
+            "require": {
+                "ext-zip": "*"
+            },
+            "bin": [
+                "bin/rr",
+                "bin/rpkg"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "": "src/"
+                }
+            },
+            "support": {
+                "source": "https://github.com/RobotUnion/robot-php-sdk/tree/v1.0-alpha3",
+                "issues": "https://github.com/RobotUnion/robot-php-sdk/issues"
+            },
+            "time": "2017-10-04 15:43:20"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "robotunion/robot-php-sdk": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

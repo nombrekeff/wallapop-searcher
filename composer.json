@@ -1,0 +1,26 @@
+{
+  "name": "WallapopSearcher",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/RobotUnion/robot-php-sdk"
+    }
+  ],
+  "require": {
+    "RobotUnion/robot-php-sdk": "dev-master",
+    "phpunit/phpunit-selenium": "^3.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
